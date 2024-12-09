@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "font";
+  src: url(WarnockPro-Subh.otf);
+}
+
+body {
+  background-color: #d7d6d4;
+  letter-spacing: normal;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  /* justify-content: space-between; */
+  position: relative;
+  height: 900px;
+  max-width: 50px;
+  margin: 50px;
+  padding: 0px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  height: 30vh;
+  width: 250px;
+}
+
+.line {
+  height: 1px;
+  width: 180px;
+  background-color: black;
+  margin-left: 6px;
+}
+
+.logo-text {
+  margin-top: 15px;
+  margin-left: 26px;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: font, sans-serif;
+  color: black;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.navbar {
+  position: relative;
+  left: 55px;
+  height: 20vh;
+  width: 40vw;
+}
+
+.line-menu {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  height: 1px;
+  width: 987px;
+  margin-left: 0px;
+  background-color: black;
+  bottom: auto;
+}
+
+.contain {
+  display: flex;
+  margin: 18px;
+  margin-left: 8px;
+  width: 42vw;
+}
+
+.navmenu {
+  position: relative;
+  margin-left: 20px;
+}
+
+.navtag {
+  padding: 20px 15px;
+  font-family: "roboto mono", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 10px;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-decoration: none;
+}
+
+.navtag:hover {
+  color: black;
+}
+
+.searchbar {
+  position: relative;
+  left: 187px;
+  width: 20vw;
+  height: 20vh;
+}
+
+.form {
+  display: flex;
+  align-items: flex-start;
+  margin: 0 0 15px;
+}
+
+.search {
+  border-style: none none solid;
+  border-width: 1px 1px 0.5px;
+  border-color: black;
+  background-color: transparent;
+  font-family: "roboto mono", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  width: 40vw;
+}
+
+input {
+  display: block;
+  width: 100%;
+  height: 38px;
+  padding: 8px 12px;
+  margin-bottom: 10px;
+  line-height: 1.42857143;
+  color: #333;
+  border: 1px solid #cccc;
+}
+
+.button {
+  background-color: black;
+  font-family: "roboto mono", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.btn {
+  display: inline-block;
+  padding: 9px 15px;
+  background-color: black;
+  color: white;
+  width: 10vw;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 0;
+}
+
+.title-wrapper {
+  width: 10px;
+  height: 100px;
+  margin: 50px;
+  position: relative;
+}
+
+.number {
+  position: absolute;
+  margin-top: 200px;
+  margin-bottom: 150px;
+}
+
+.numbertext {
+  margin-top: -29px;
+  margin-left: 16px;
+  font-family: "Roboto mono";
+  color: #000;
+  font-size: 12px;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  width: 40vw;
+}
+
+.articlesblock {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  max-width: 263px;
+  width: 17vw;
+  padding-top: 11px;
+  padding-bottom: 10px;
+  padding-left: 13px;
+}
+
+.articles {
+  position: relative;
+  top: 20%;
+  right: 70px;
+}
+
+.textarticles {
+  margin: 15px 20px 15px 21px;
+  font-family: "Roboto mono", sans-serif;
+  color: #000;
+  font-size: 12px;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  width: 40vw;
+}
+
+.articlesblock {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  max-width: 262px;
+  width: 17vw;
+  padding-top: 11px;
+  padding-bottom: 10px;
+  padding-left: 13px;
+  margin: 14px 20px -5px 10px;
+  background-color: hsla(0, 0%, 100%, 0.2);
+  box-shadow: 0 24px 24px 0 rgba(0, 0, 0, 0.05);
+}
+
+.articlesblock:hover {
+  background-color: #fff;
+}
+
+.articlesimage {
+  max-width: 100%;
+  display: inline-block;
+}
+
+.articlestext {
+  margin-top: -3px;
+  margin-left: 10px;
+}
+
+.articletitel {
+  font-family: "Roboto mono", sans-serif;
+  color: #000;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.date {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 12px;
+  font-family: "Arial";
+}
